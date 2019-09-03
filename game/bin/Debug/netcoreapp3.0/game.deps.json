@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "game/1.0.0": {
+        "dependencies": {
+          "Space.Datatypes": "1.0.0",
+          "Space.Logic": "1.0.0"
+        },
+        "runtime": {
+          "game.dll": {}
+        }
+      },
+      "Space.Datatypes/1.0.0": {
+        "runtime": {
+          "Space.Datatypes.dll": {}
+        }
+      },
+      "Space.Logic/1.0.0": {
+        "dependencies": {
+          "Space.Datatypes": "1.0.0"
+        },
+        "runtime": {
+          "Space.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Space.Datatypes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Space.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

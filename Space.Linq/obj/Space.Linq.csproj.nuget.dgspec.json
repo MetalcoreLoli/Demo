@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj": {}
+  },
+  "projects": {
+    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj",
+        "projectName": "Space.Linq",
+        "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj",
+        "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
+        "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

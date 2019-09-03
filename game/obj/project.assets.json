@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Space.Datatypes/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Space.Datatypes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Space.Datatypes.dll": {}
+        }
+      },
+      "Space.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Space.Datatypes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Space.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Space.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Space.Datatypes/1.0.0": {
+      "type": "project",
+      "path": "../Space.Datatypes/Space.Datatypes.csproj",
+      "msbuildProject": "../Space.Datatypes/Space.Datatypes.csproj"
+    },
+    "Space.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Space.Logic/Space.Logic.csproj",
+      "msbuildProject": "../Space.Logic/Space.Logic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Space.Datatypes >= 1.0.0",
+      "Space.Logic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/metalcoreLoli/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/game.csproj",
+      "projectName": "game",
+      "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/game.csproj",
+      "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
+      "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
+              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj"
+            },
+            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj": {
+              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        }
+      }
+    }
+  }
+}

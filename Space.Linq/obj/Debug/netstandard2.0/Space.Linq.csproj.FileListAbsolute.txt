@@ -1,0 +1,9 @@
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/bin/Debug/netstandard2.0/Space.Linq.deps.json
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/bin/Debug/netstandard2.0/Space.Linq.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/bin/Debug/netstandard2.0/Space.Linq.pdb
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/Debug/netstandard2.0/Space.Linq.csprojAssemblyReference.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/Debug/netstandard2.0/Space.Linq.csproj.CoreCompileInputs.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/Debug/netstandard2.0/Space.Linq.AssemblyInfoInputs.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/Debug/netstandard2.0/Space.Linq.AssemblyInfo.cs
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/Debug/netstandard2.0/Space.Linq.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/Debug/netstandard2.0/Space.Linq.pdb

@@ -1,0 +1,12 @@
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Logic.deps.json
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Logic.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Logic.pdb
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Datatypes.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.csprojAssemblyReference.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.csproj.CoreCompileInputs.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.AssemblyInfoInputs.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.AssemblyInfo.cs
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.csproj.CopyComplete
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.pdb
