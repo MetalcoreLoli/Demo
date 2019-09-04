@@ -79,6 +79,65 @@
             "projectReferences": {
               "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
                 "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj"
+              },
+              "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
+                "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj",
+        "projectName": "Space.View",
+        "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj",
+        "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
+        "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
+                "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj"
               }
             }
           }
@@ -138,6 +197,9 @@
               },
               "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj": {
                 "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj"
+              },
+              "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
+                "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj"
               }
             }
           }

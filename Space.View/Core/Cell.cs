@@ -1,5 +1,6 @@
 using System;
-using Space.Datatypes.View;
+using Space.Datatypes;
+using Space.View;
 
 namespace Space.Datatypes
 {

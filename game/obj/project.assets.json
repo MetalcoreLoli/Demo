@@ -16,13 +16,27 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Space.Datatypes": "1.0.0"
+          "Space.Datatypes": "1.0.0",
+          "Space.View": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Space.Logic.dll": {}
         },
         "runtime": {
           "bin/placeholder/Space.Logic.dll": {}
+        }
+      },
+      "Space.View/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Space.Datatypes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Space.View.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Space.View.dll": {}
         }
       }
     }
@@ -37,12 +51,18 @@
       "type": "project",
       "path": "../Space.Logic/Space.Logic.csproj",
       "msbuildProject": "../Space.Logic/Space.Logic.csproj"
+    },
+    "Space.View/1.0.0": {
+      "type": "project",
+      "path": "../Space.View/Space.View.csproj",
+      "msbuildProject": "../Space.View/Space.View.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Space.Datatypes >= 1.0.0",
-      "Space.Logic >= 1.0.0"
+      "Space.Logic >= 1.0.0",
+      "Space.View >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -74,6 +94,9 @@
             },
             "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj": {
               "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj"
+            },
+            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
+              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj"
             }
           }
         }
