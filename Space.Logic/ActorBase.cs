@@ -1,6 +1,6 @@
 ﻿using System;
 using Space.Datatypes;
-using Space.Datatypes.View;
+using Space.View;
 
 namespace Space.Logic
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Space.Datatypes.View
+namespace Space.View
 {
     public interface IView 
     {

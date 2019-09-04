@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Space.Logic\Space.Logic.csproj" />
     <ProjectReference Include="..\Space.Datatypes\Space.Datatypes.csproj" />
+    <ProjectReference Include="..\Space.View\Space.View.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

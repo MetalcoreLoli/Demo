@@ -1,6 +1,7 @@
 using System;
 using Space.Datatypes;
 
+
 namespace Space.Logic
 {
     public class SpriteBase : ISprite

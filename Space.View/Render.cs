@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Space.Datatypes.View
+namespace Space.View
 {
     public class Render
     {

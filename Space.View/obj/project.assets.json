@@ -35,19 +35,6 @@
         "runtime": {
           "bin/placeholder/Space.Datatypes.dll": {}
         }
-      },
-      "Space.View/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Space.Datatypes": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Space.View.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Space.View.dll": {}
-        }
       }
     }
   },
@@ -200,18 +187,12 @@
       "type": "project",
       "path": "../Space.Datatypes/Space.Datatypes.csproj",
       "msbuildProject": "../Space.Datatypes/Space.Datatypes.csproj"
-    },
-    "Space.View/1.0.0": {
-      "type": "project",
-      "path": "../Space.View/Space.View.csproj",
-      "msbuildProject": "../Space.View/Space.View.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Space.Datatypes >= 1.0.0",
-      "Space.View >= 1.0.0"
+      "Space.Datatypes >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -220,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj",
-      "projectName": "Space.Logic",
-      "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj",
+      "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj",
+      "projectName": "Space.View",
+      "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj",
       "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
-      "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/",
+      "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
@@ -240,9 +221,6 @@
           "projectReferences": {
             "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
               "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj"
-            },
-            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
-              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj"
             }
           }
         }

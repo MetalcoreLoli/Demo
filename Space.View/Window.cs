@@ -1,9 +1,9 @@
 using System;
 using Space.Datatypes;
 
-namespace Space.Datatypes.View
+namespace Space.View
 {
-    public class StatusWindow
+    public class Window
     {
 
         private int _windowWidth;
@@ -29,7 +29,7 @@ namespace Space.Datatypes.View
         }
 
 
-        public StatusWindow(int height, int width)
+        public Window(int height, int width)
         {
             _windowWidth = width;
             _windowHeight = height;
@@ -38,7 +38,7 @@ namespace Space.Datatypes.View
             Init(Cells);
         }
 
-        public StatusWindow()
+        public Window()
         {
             _windowWidth = 15;
             _windowHeight = 10;

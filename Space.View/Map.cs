@@ -1,6 +1,7 @@
 using System;
+using Space.Datatypes;
 
-namespace Space.Datatypes.View
+namespace Space.View
 {
     public class Map
     {

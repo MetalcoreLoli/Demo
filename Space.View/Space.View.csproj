@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Space.Datatypes\Space.Datatypes.csproj" />
-    <ProjectReference Include="..\Space.View\Space.View.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

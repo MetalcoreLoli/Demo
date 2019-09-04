@@ -1,6 +1,6 @@
 ﻿using System;
 using Space.Datatypes;
-using Space.Datatypes.View;
+using Space.View;
 using Space.Logic;
 using System.Threading;
 
@@ -62,9 +62,9 @@ namespace game
             MaxHp = 20
         };
         static Alien alien = new Alien();
-        static StatusWindow sw = new StatusWindow(10, 30);
-        static StatusWindow mw = new StatusWindow(30, 30);
-        static Map map = new Map(50, 100);
+        static Window sw = new Window(10, 30);
+        static Window mw = new Window(30, 30);
+        static Map map = new Map(50, 50);
 
         static void Update()
         {
@@ -94,7 +94,7 @@ namespace game
             Console.Clear();
             sw.Text = $"Hp: {player.Hp} / {player.MaxHp}";
             player.X = 24;
-            player.Y = 50;
+            player.Y = 25;
             alien.X = alien.Y = 15;
             
             player.Color = ConsoleColor.Yellow;
@@ -138,7 +138,7 @@ namespace game
                 else 
                 {
                     player.X = 24;
-                    player.Y = 50;
+                    player.Y = 25;
                 }
             }
         }
