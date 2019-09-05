@@ -24,7 +24,7 @@ namespace Space.Datatypes
 
         public static Vector2i operator -(Vector2i v, Vector2i vv)
         {
-            return new Vector2i(){ X = v.X - vv.X, Y = v.Y + vv.Y };
+            return new Vector2i(){ X = v.X - vv.X, Y = v.Y - vv.Y };
         }
     }
 }
