@@ -7,7 +7,7 @@ namespace Space.Datatypes
         public int X { get; set; }
         public int Y { get; set; }
 
-        public Vector2i(){}
+        public Vector2i() {}
         public Vector2i (int x, int y)
         {
             X = x;
