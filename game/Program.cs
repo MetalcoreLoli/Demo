@@ -23,6 +23,7 @@ namespace game
             Color = ConsoleColor.Yellow;
             Sprite = SpriteBase.FromPattern(pattern, 5, 5);
         }
+        
     }
 
     /* ..#..    0,0 0,1 0,2 0,3 0,4
@@ -36,16 +37,16 @@ namespace game
     class Alien : ActorBase
     {
         private const int _height = 5;
-        private const int _width  = 5;
+        private const int _width = 5;
 
         public Alien()
         {
             Name = "Alien";
-        
-            string pattern = "#...#"+
-                             ".###."+
-                             "#.#.#"+
-                             ".###."+
+
+            string pattern = "#...#" +
+                             ".###." +
+                             "#.#.#" +
+                             ".###." +
                              "#...#";
 
             Color = ConsoleColor.Red;
@@ -57,8 +58,9 @@ namespace game
 
     class Program
     {
-        static Player player = new Player(){
-            Hp    = 20,
+        static Player player = new Player()
+        {
+            Hp = 20,
             MaxHp = 20
         };
         static Alien alien = new Alien();
@@ -69,13 +71,12 @@ namespace game
         static void Update()
         {
             Thread.Sleep(500);
-            //Console.Clear();
-            //map.Update(0, 0);
             map.RenderWithOffset(0, 0);
             sw.RenderWithOffset(50, 0);
             mw.RenderWithOffset(50, 9);
+            player.IsInFov(alien);
             player.RenderWithOffset(0, 0);
-            alien.RenderWithOffset(0, 0);            
+            alien.RenderWithOffset(0, 0);
         }
 
         static void PrintMiniMap(string[] mapPattern)
@@ -93,53 +94,23 @@ namespace game
         {
             Console.Clear();
             sw.Text = $"Hp: {player.Hp} / {player.MaxHp}";
-            player.X = 24;
-            player.Y = 25;
-            alien.X = alien.Y = 15;
-            
+            player.Position = new Vector2i(24, 25);
+            alien.Position  = new Vector2i(15, 15);
+
             player.Color = ConsoleColor.Yellow;
 
             sw.PrintText(sw.Text, 3, 4, sw.Cells);
             sw.PrintText("qwerty", 5, 4, sw.Cells);
             sw.PrintText("yay", 1, 1, sw.Cells, true);
-            string[] _map = {
-                "####################",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "#                  #",
-                "####################",
-            };
-
-            PrintMiniMap(_map);
 
             map.Update(0, 0);
             while (true)
             {
                 Update();
-                if (map.IsEmpty(player.X, player.Y - 1))
-                    player.Move(0, -1);
-                else 
-                {
-                    player.X = 24;
-                    player.Y = 25;
-                }
+                if (map.IsEmpty(player.Position.X, player.Position.Y - 1))
+                    player.Move(new Vector2i(0, -1));
+                else
+                    player.Position = new Vector2i(24, 25);
             }
         }
     }

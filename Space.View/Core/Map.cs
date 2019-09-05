@@ -49,8 +49,7 @@ namespace Space.View
                 for (int x = 0; x < width; x++)
                     cells[y * width + x] = new Cell
                     {
-                        X = x,
-                        Y = y,
+                        Position = new Vector2i(x, y),  
                         Symbol = ' '
                     };
 

@@ -18,7 +18,7 @@ namespace Space.View
             int pTop = Console.CursorTop;
             Console.CursorVisible = false;
             
-            Console.SetCursorPosition(obj.X + offsetX, obj.Y + offsetY);
+            Console.SetCursorPosition(obj.Position.X + offsetX, obj.Position.Y + offsetY);
             Console.Write(obj.Symbol);
             
             Console.SetCursorPosition(pLeft, pTop);
@@ -34,7 +34,7 @@ namespace Space.View
             int pTop = Console.CursorTop;
             Console.CursorVisible = false;
             
-            Console.SetCursorPosition(obj.X + offsetX, obj.Y + offsetY);
+            Console.SetCursorPosition(obj.Position.X + offsetX, obj.Position.Y + offsetY);
             Console.Write(obj.Symbol);
             
             Console.SetCursorPosition(pLeft, pTop);
@@ -48,7 +48,7 @@ namespace Space.View
             int pTop = Console.CursorTop;
             Console.CursorVisible = false;
             
-            Console.SetCursorPosition(obj.X, obj.Y);
+            Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
             Console.Write(obj.Symbol);
             
             Console.SetCursorPosition(pLeft, pTop);

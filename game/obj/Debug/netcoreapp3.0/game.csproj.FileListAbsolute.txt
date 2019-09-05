@@ -4,10 +4,8 @@
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/game.runtimeconfig.dev.json
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/game.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/game.pdb
-/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.Datatypes.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.Logic.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.Logic.pdb
-/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.Datatypes.pdb
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/Debug/netcoreapp3.0/game.csprojAssemblyReference.cache
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/Debug/netcoreapp3.0/game.csproj.CoreCompileInputs.cache
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/Debug/netcoreapp3.0/game.AssemblyInfoInputs.cache
@@ -15,3 +13,7 @@
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/Debug/netcoreapp3.0/game.csproj.CopyComplete
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/Debug/netcoreapp3.0/game.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/Debug/netcoreapp3.0/game.pdb
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.View.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.View.pdb
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.Datatypes.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/bin/Debug/netcoreapp3.0/Space.Datatypes.pdb

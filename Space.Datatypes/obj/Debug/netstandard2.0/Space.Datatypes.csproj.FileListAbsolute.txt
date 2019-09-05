@@ -1,0 +1,9 @@
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.csprojAssemblyReference.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.csproj.CoreCompileInputs.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.AssemblyInfoInputs.cache
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.AssemblyInfo.cs
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.deps.json
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.dll
+/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.pdb

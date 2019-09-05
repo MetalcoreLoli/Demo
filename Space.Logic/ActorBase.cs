@@ -9,8 +9,9 @@ namespace Space.Logic
         int _x = 0, _y = 0;
         char _symbols = ' ';
 
-        public int X { get => _x; set => _x = value; }
-        public int Y { get => _y; set => _y = value; }
+        Vector2i _pos;
+        
+        public Vector2i Position { get => _pos; set => _pos = value; }
 
         public char Symbol { get => _symbols; set => _symbols = value; }
 
@@ -22,22 +23,30 @@ namespace Space.Logic
 
         public float Damage { get; set; }
 
+        public float FovX { get; set; }
+
+        public float FovY { get; set; }
+
         public SpriteBase Sprite { get; set; }
 
         public ConsoleColor Color { get; set; }
 
-        public void Move(int x, int y)
+        public void Move(Vector2i move)
         {
-            X += x;
-            Y += y;
+            Position += move; 
         }
 
         public void RenderWithOffset(int offsetX, int offsetY)
         {
             Console.ForegroundColor = Color;
-            foreach(var cell in Sprite.Get())
-                Render.WithOffset<Cell>(cell, X + offsetX, Y + offsetY);        
+            foreach (var cell in Sprite.Get())
+                Render.WithOffset<Cell>(cell, Position.X + offsetX, Position.Y + offsetY);
             Console.ResetColor();
+        }
+
+        public virtual bool IsInFov(ActorBase actor)
+        {
+            return 1 < 25;
         }
     }
 }

@@ -4,8 +4,7 @@ namespace Space.View
 {
     public interface IView 
     {
-        int X { get; set; }
-        int Y { get; set; }
+        Space.Datatypes.Vector2i Position { get; set; }
         char Symbol { get; set; }
     }
 }

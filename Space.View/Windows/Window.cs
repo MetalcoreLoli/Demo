@@ -54,8 +54,7 @@ namespace Space.View
                 {
                     cells[y * _windowWidth + x] = new Cell
                     {
-                        X = x,
-                        Y = y,
+                        Position = new Vector2i(x, y)  
                     };
                 }
 
@@ -83,7 +82,9 @@ namespace Space.View
             for (int i = 0; i < text.Length; i++)
                 cells[i] = new Cell
                 {
-                    X = i
+                   Position = new Vector2i(){
+                        X = i
+                   }
                 };
 
             for (int i = 0; i < text.Length; i++)

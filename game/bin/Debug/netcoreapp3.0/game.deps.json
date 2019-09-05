@@ -9,7 +9,8 @@
       "game/1.0.0": {
         "dependencies": {
           "Space.Datatypes": "1.0.0",
-          "Space.Logic": "1.0.0"
+          "Space.Logic": "1.0.0",
+          "Space.View": "1.0.0"
         },
         "runtime": {
           "game.dll": {}
@@ -22,10 +23,19 @@
       },
       "Space.Logic/1.0.0": {
         "dependencies": {
-          "Space.Datatypes": "1.0.0"
+          "Space.Datatypes": "1.0.0",
+          "Space.View": "1.0.0"
         },
         "runtime": {
           "Space.Logic.dll": {}
+        }
+      },
+      "Space.View/1.0.0": {
+        "dependencies": {
+          "Space.Datatypes": "1.0.0"
+        },
+        "runtime": {
+          "Space.View.dll": {}
         }
       }
     }
@@ -42,6 +52,11 @@
       "sha512": ""
     },
     "Space.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Space.View/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

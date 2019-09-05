@@ -27,8 +27,7 @@ namespace Space.Logic
                 {
                     _spriteToDraw[y * width + x] = new Cell
                     {
-                        X = x,
-                        Y = y
+                        Position = new Vector2i(x, y)
                     };
                 }
             for (int i = 0; i < width * height; i++)
@@ -49,9 +48,9 @@ namespace Space.Logic
                 {
                      spriteToDraw[y * width + x] = new Cell
                     {
-                        X = x,
-                        Y = y
+                        Position = new Vector2i(x ,y)
                     };
+
                 }
             for (int i = 0; i < width * height; i++)
             {
