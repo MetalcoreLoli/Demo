@@ -26,5 +26,8 @@ namespace Space.Datatypes
         {
             return new Vector2i(){ X = v.X - vv.X, Y = v.Y - vv.Y };
         }
+
+        public static Vector2i Scale(Vector2i v, int scale)
+            => new Vector2i(){ X = v.X * scale, Y = v.Y * scale };
     }
 }
