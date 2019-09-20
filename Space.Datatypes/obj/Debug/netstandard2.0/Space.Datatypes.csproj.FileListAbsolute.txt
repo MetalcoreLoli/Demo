@@ -7,3 +7,11 @@
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.pdb
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.deps.json
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/bin/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.csprojAssemblyReference.cache
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.AssemblyInfoInputs.cache
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.AssemblyInfo.cs
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/obj/Debug/netstandard2.0/Space.Datatypes.pdb

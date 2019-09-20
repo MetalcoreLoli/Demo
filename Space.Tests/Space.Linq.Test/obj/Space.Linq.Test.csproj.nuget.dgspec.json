@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj": {}
+    "/home/daniel/Documents/Projects/CSharp/Demo/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj": {}
   },
   "projects": {
-    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj": {
+    "/home/daniel/Documents/Projects/CSharp/Demo/Space.Linq/Space.Linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj",
+        "projectUniqueName": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Linq/Space.Linq.csproj",
         "projectName": "Space.Linq",
-        "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj",
-        "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
-        "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/obj/",
+        "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Linq/Space.Linq.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Linq/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -52,21 +52,22 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/daniel/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj": {
+    "/home/daniel/Documents/Projects/CSharp/Demo/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj",
+        "projectUniqueName": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj",
         "projectName": "Space.Linq.Test",
-        "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj",
-        "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
-        "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Tests/Space.Linq.Test/obj/",
+        "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Tests/Space.Linq.Test/Space.Linq.Test.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Tests/Space.Linq.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -77,8 +78,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj": {
-                "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Linq/Space.Linq.csproj"
+              "/home/daniel/Documents/Projects/CSharp/Demo/Space.Linq/Space.Linq.csproj": {
+                "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Linq/Space.Linq.csproj"
               }
             }
           }
@@ -95,13 +96,6 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[15.9.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview7-27912-14, )",
-              "autoReferenced": true
             },
             "NUnit3TestAdapter": {
               "target": "Package",
@@ -126,7 +120,8 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "/home/daniel/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
         }
       }
     }

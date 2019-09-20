@@ -66,19 +66,19 @@
     ]
   },
   "packageFolders": {
-    "/home/metalcoreLoli/.nuget/packages/": {}
+    "/home/daniel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/game.csproj",
+      "projectUniqueName": "/home/daniel/Documents/Projects/CSharp/Demo/game/game.csproj",
       "projectName": "game",
-      "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/game.csproj",
-      "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
-      "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/game/obj/",
+      "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/game/game.csproj",
+      "packagesPath": "/home/daniel/.nuget/packages/",
+      "outputPath": "/home/daniel/Documents/Projects/CSharp/Demo/game/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+        "/home/daniel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -89,14 +89,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
-              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj"
+            "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj": {
+              "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj"
             },
-            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj": {
-              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj"
+            "/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/Space.Logic.csproj": {
+              "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/Space.Logic.csproj"
             },
-            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
-              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj"
+            "/home/daniel/Documents/Projects/CSharp/Demo/Space.View/Space.View.csproj": {
+              "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.View/Space.View.csproj"
             }
           }
         }
@@ -123,7 +123,8 @@
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
-        }
+        },
+        "runtimeIdentifierGraphPath": "/home/daniel/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
       }
     }
   }

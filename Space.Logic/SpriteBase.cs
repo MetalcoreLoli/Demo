@@ -6,7 +6,7 @@ namespace Space.Logic
 {
     public class SpriteBase : ISprite
     {
-        public Cell[] _spriteToDraw;
+        Cell[] _spriteToDraw;
         
         public SpriteBase(string pattern)
         {

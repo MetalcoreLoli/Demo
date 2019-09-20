@@ -42,7 +42,7 @@ namespace Space.View
             Cells = InitMap(height, width);
         }
 
-        private Cell[] InitMap(int height, int width)
+        protected Cell[] InitMap(int height, int width)
         {
             var cells = new Cell[height * width];
             for (int y = 0; y < height; y++)
@@ -67,7 +67,7 @@ namespace Space.View
             return null;
         }
 
-        public void Update(int offsetX, int offsetY)
+        public virtual void Update(int offsetX, int offsetY)
         {
             for (int y = 1; y < Height - 1; y++)
                 for (int x = 1; x < Width - 1; x++)

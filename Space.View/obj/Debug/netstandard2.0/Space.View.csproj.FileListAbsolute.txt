@@ -10,3 +10,14 @@
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/bin/Debug/netstandard2.0/Space.Datatypes.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/bin/Debug/netstandard2.0/Space.Datatypes.pdb
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/obj/Debug/netstandard2.0/Space.View.csproj.CopyComplete
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/bin/Debug/netstandard2.0/Space.View.deps.json
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/bin/Debug/netstandard2.0/Space.View.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/bin/Debug/netstandard2.0/Space.View.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/bin/Debug/netstandard2.0/Space.Datatypes.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/bin/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/obj/Debug/netstandard2.0/Space.View.csprojAssemblyReference.cache
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/obj/Debug/netstandard2.0/Space.View.AssemblyInfoInputs.cache
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/obj/Debug/netstandard2.0/Space.View.AssemblyInfo.cs
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/obj/Debug/netstandard2.0/Space.View.csproj.CopyComplete
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/obj/Debug/netstandard2.0/Space.View.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.View/obj/Debug/netstandard2.0/Space.View.pdb

@@ -92,7 +92,7 @@ namespace Space.View
             return cells;
         }
 
-        public void PrintText(string data, int row, int column, Cell[] cells, bool vertical = false)
+        public void PrintText(string data, int row, int column, bool vertical = false)
         {
             if (row == 0) row++;
             if (column == 0) column++;
@@ -100,17 +100,10 @@ namespace Space.View
             if (data.Length - 1 < _windowWidth)
                 if (!vertical)
                     for (int i = 0; i < data.Length; i++)
-                        cells[row  * _windowWidth + column + i].Symbol = data[i];
+                        Cells[row  * _windowWidth + column + i].Symbol = data[i];
                 else if (data.Length < _windowHeight && vertical) 
                     for (int i = 0; i < data.Length; i++)
-                        cells[(row + i) * _windowWidth + column].Symbol = data[i];
-        }
-
-
-        public void RenderTextWithOffset(int offsetX, int offsetY)
-        {
-            foreach (var cell in _text)
-                Render.WithOffset(cell, X + offsetX, Y + offsetY);
+                        Cells[(row + i) * _windowWidth + column].Symbol = data[i];
         }
 
         public void RenderWithOffset(int offsetX, int offsetY)

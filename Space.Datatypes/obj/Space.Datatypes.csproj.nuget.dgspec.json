@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {}
+    "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj": {}
   },
   "projects": {
-    "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
+    "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj",
+        "projectUniqueName": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj",
         "projectName": "Space.Datatypes",
-        "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj",
-        "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
-        "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/obj/",
+        "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -52,7 +52,8 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/daniel/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
         }
       }
     }

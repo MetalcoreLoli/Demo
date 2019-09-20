@@ -12,3 +12,16 @@
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.View.pdb
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Datatypes.dll
 /home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/bin/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.Logic.deps.json
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.Logic.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.Logic.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.Datatypes.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.View.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.Datatypes.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/bin/Debug/netstandard2.0/Space.View.pdb
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.csprojAssemblyReference.cache
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.AssemblyInfoInputs.cache
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.AssemblyInfo.cs
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.csproj.CopyComplete
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.dll
+/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/Debug/netstandard2.0/Space.Logic.pdb

@@ -15,18 +15,6 @@ namespace Space.Logic
 
         public char Symbol { get => _symbols; set => _symbols = value; }
 
-        public string Name { get; set; }
-
-        public int Hp { get; set; }
-
-        public int MaxHp { get; set; }
-
-        public float Damage { get; set; }
-
-        public float FovX { get; set; }
-
-        public float FovY { get; set; }
-
         public SpriteBase Sprite { get; set; }
 
         public ConsoleColor Color { get; set; }

@@ -215,19 +215,19 @@
     ]
   },
   "packageFolders": {
-    "/home/metalcoreLoli/.nuget/packages/": {}
+    "/home/daniel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj",
+      "projectUniqueName": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/Space.Logic.csproj",
       "projectName": "Space.Logic",
-      "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/Space.Logic.csproj",
-      "packagesPath": "/home/metalcoreLoli/.nuget/packages/",
-      "outputPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Logic/obj/",
+      "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/Space.Logic.csproj",
+      "packagesPath": "/home/daniel/.nuget/packages/",
+      "outputPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Logic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/metalcoreLoli/.nuget/NuGet/NuGet.Config"
+        "/home/daniel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -238,11 +238,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj": {
-              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.Datatypes/Space.Datatypes.csproj"
+            "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj": {
+              "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.Datatypes/Space.Datatypes.csproj"
             },
-            "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj": {
-              "projectPath": "/home/metalcoreLoli/Documents/Projects/CSharp/SpaceInvaters/Space.View/Space.View.csproj"
+            "/home/daniel/Documents/Projects/CSharp/Demo/Space.View/Space.View.csproj": {
+              "projectPath": "/home/daniel/Documents/Projects/CSharp/Demo/Space.View/Space.View.csproj"
             }
           }
         }
@@ -272,7 +272,8 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/home/daniel/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
       }
     }
   }
